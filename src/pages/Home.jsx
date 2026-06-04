@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import ecohLogo from '../assets/ecoh-logo.png'
 
 function Home() {
   return (
@@ -6,7 +7,7 @@ function Home() {
       <header className="hero">
         <img
           className="ecohLogo"
-          src={`${import.meta.env.BASE_URL}images/ecoh-logo.png`}
+          src={ecohLogo}
           alt="ECOH Logo"
         />
 
