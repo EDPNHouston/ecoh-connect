@@ -6,7 +6,7 @@ function Home() {
       <header className="hero">
         <img
           className="ecohLogo"
-          src="/images/ecoh-logo.png"
+          src={`${import.meta.env.BASE_URL}images/ecoh-logo.png`}
           alt="ECOH Logo"
         />
 
