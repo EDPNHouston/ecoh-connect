@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+  color: #222;
+}
+
+.app {
+  max-width: 540px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: #ffffff;
+  position: relative;
+}
+
+.content {
+  min-height: 100vh;
+  padding: 24px 20px 90px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.ecohLogo {
+  width: 220px;
+  max-width: 85%;
+  display: block;
+  margin: 8px auto 8px;
+}
+
+.hero h1 {
+  margin: 8px 0;
+  font-size: 30px;
+  color: #00843d;
+}
+
+.hero p {
+  margin: 0 0 34px;
+  color: #444;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.actionButton {
+  display: block;
+  width: 100%;
+  padding: 18px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+}
+
+.green {
+  background: #00843d;
+  color: white;
+}
+
+.yellow {
+  background: #fcd116;
+  color: black;
+}
+
+.red {
+  background: #da121a;
+  color: white;
+}
+
+.dark {
+  background: #1f1f1f;
+  color: white;
+}
+
+.gray {
+  background: #444444;
+  color: white;
+}
+
+.homeFooter {
+  margin-top: 38px;
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+}
+
+.page {
+  text-align: center;
+}
+
+.page h1 {
+  color: #00843d;
+  font-size: 27px;
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
+.page p {
+  color: #444;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.infoCard {
+  background: #f7f7f7;
+  border-radius: 12px;
+  padding: 18px;
+  margin: 24px 0;
+  text-align: left;
+  border: 1px solid #e1e1e1;
+}
+
+.infoCard h2 {
+  margin-top: 0;
+  color: #222;
+  font-size: 20px;
+}
+
+.websiteButton {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 10px;
+  background: #00843d;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+}
+
+.websiteButton:hover {
+  background: #006b31;
+}
+
+.bottomNav {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 540px;
+  width: 100%;
+  height: 58px;
+  background: #ffffff;
+  border-top: 1px solid #dddddd;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1000;
+}
+
+.navItem {
+  text-decoration: none;
+  color: #555555;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 8px 11px;
+  border-radius: 8px;
+}
+
+.activeNavItem {
+  background: #00843d;
+  color: white;
+}
